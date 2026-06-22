@@ -1,0 +1,29 @@
+# --- Quarkus Specifics ---
+**/.quarkus/
+**.log
+
+# --- Build Tools ---
+# Maven
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/build.log
+**/.mvn/timing.properties
+**/.mvn/wrapper/.maven
+
+# Gradle
+**/.gradle/
+**/build/
+
+# --- IDEs and Editors ---
+
+# Visual Studio Code
+**/.vscode/
+
+# --- Local Environment ---
+**/.env
+**/.env.local
+**/.certs/
