@@ -24,6 +24,6 @@
 **/.vscode/
 
 # --- Local Environment ---
-**/.env
+# **/.env
 **/.env.local
 **/.certs/
