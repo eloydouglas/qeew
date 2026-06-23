@@ -87,6 +87,11 @@ public class Queue{
     return null;
   }
 
+  public List<Process> clearProcessed() {
+    this.processed = new LinkedList<>();
+    return processed;
+  }
+
   private void removeProcessed() {
     if (this.isEmpty()) {
       return;

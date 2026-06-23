@@ -66,4 +66,11 @@ public class QueuesResource {
     return queue.cancel(processId);
   }
 
+  @POST
+  @Path("/{queueType}/processed/clear")
+  public List<Process> clearProcessed(@PathParam("queueType") String queueType) {
+    Queue queue = db.findQueue(queueType);
+    return queue.clearProcessed();
+  }
+
 }
